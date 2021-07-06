@@ -1,39 +1,29 @@
 {
-  "name": "react-three",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-three-fiber-poc",
+  "version": "1.0.0",
+  "description": "Show an example of react-three-fiber app",
+  "keywords": [
+    "interaction",
+    "pointer-events"
+  ],
+  "main": "src/index.js",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "drei": "^0.0.60",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "react-spring": "^8.0.27",
-    "react-three-fiber": "^4.2.10",
-    "sass": "^1.26.8",
-    "three": "^0.117.1"
+    "@react-three/drei": "^7.0.6",
+    "@react-three/fiber": "^7.0.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "three": "0.130.0"
   },
+  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
